@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mini Manager</string>
+    <string name="Calculate">Calculate</string>
+    <string name="title_activity_income_calculator">Income_calculator</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_stock">Stock</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="action_settings">action_settings</string>
+    <string name="addBtn">Add Event</string>
+    <string name="deleteBtn">Delete Event</string>
+    <string name="stockLbl">Stock</string>
+    <string name="wageLbl">Wage</string>
+    <string name="calcTotal">Calculate Total</string>
+    <string name="incomeLbl">Total Income</string>
+	<string name="hello_world">Hello world!</string>
+
+
+    <string-array name="daysOfWeek_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

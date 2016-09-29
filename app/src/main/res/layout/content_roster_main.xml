@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <Spinner android:id="@+id/day" android:layout_width="match_parent"
+        android:layout_height="50dp" android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" android:textStyle="bold" />
+
+    <Button android:id="@+id/add" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_alignTop="@+id/nameEmp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText android:id="@+id/nameEmp" android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10" android:hint="Employee Name"
+        android:inputType="text"
+        android:layout_below="@+id/day"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="21dp" />
+
+    <TextView android:id="@+id/textView1" android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" android:padding="5dp"
+        android:text="Roster of the week" android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:layout_below="@+id/nameEmp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ExpandableListView android:id="@+id/myList"
+        android:layout_width="300dp" android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/add"
+        android:layout_alignEnd="@+id/add" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Availability"
+        android:text="Available List"
+        android:id="@+id/availableList"
+        android:layout_below="@+id/myList"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
